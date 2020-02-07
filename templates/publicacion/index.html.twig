@@ -24,7 +24,9 @@
     <tbody>
     {% for publicacion in listado_publicaciones %}
     <tr>
-        <td>{{ publicacion.getTitulo }}</td>
+        <td>
+            <a href="{{ path('publicacion-detalle', {id: publicacion.getId}) }}">{{ publicacion.getTitulo }}</a>
+        </td>
         <td>{{ publicacion.getContenido }}</td>
         <td>4</td>
         <td>{{ publicacion.getCategoria }}</td>

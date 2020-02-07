@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5995d971-dc63-4be1-95cb-615c7c875b7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/publicacion/detalle.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Categoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PublicacionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PublicacionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/publicacion/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/publicacion/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -142,7 +143,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/publicacion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/publicacion" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -155,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581076038282</updated>
       <workItem from="1581076039981" duration="5734000" />
+      <workItem from="1581100681935" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="Entidades sin relaciones">
       <created>1581077344574</created>
@@ -186,13 +193,17 @@
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.948@67.27.1853.948" timestamp="1581080374191" />
-    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2" timestamp="1581081593277">
+    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2" timestamp="1581082318092">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2/67.27.1853.948@67.27.1853.948" timestamp="1581081593277" />
-    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581081607420">
+    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2/67.27.1853.948@67.27.1853.948" timestamp="1581082318092" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581082327837">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948@67.27.1853.948" timestamp="1581081607420" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948@67.27.1853.948" timestamp="1581082327837" />
+    <state x="649" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1581100688430">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="649" y="327" key="com.intellij.ide.util.TipDialog/67.27.1853.948@67.27.1853.948" timestamp="1581100688430" />
   </component>
 </project>
