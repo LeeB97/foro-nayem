@@ -26,6 +26,12 @@ class Comentario
      */
     private $fechaPublicacion;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Publicacion", inversedBy="comentarios")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $publicacion;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -51,6 +57,18 @@ class Comentario
     public function setFechaPublicacion(\DateTimeInterface $fechaPublicacion): self
     {
         $this->fechaPublicacion = $fechaPublicacion;
+
+        return $this;
+    }
+
+    public function getPublicacion(): ?Publicacion
+    {
+        return $this->publicacion;
+    }
+
+    public function setPublicacion(?Publicacion $publicacion): self
+    {
+        $this->publicacion = $publicacion;
 
         return $this;
     }

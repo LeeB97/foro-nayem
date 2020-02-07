@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5995d971-dc63-4be1-95cb-615c7c875b7f" name="Default Changelist" comment="" />
+    <list default="true" id="5995d971-dc63-4be1-95cb-615c7c875b7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/foro-nayem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/foro-nayem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Categoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Comentario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comentario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Publicacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Publicacion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +136,8 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XThYO3F0na3lEea6mkgwAvv3It" />
@@ -148,21 +161,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581076038282</updated>
-      <workItem from="1581076039981" duration="868000" />
+      <workItem from="1581076039981" duration="5060000" />
     </task>
+    <task id="LOCAL-00001" summary="Entidades sin relaciones">
+      <created>1581077344574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581077344574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Entidades sin relaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entidades sin relaciones" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2" timestamp="1581077312091">
+    <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581080374191">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2/67.27.1853.948@67.27.1853.948" timestamp="1581077312091" />
-    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581077270805">
+    <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.948@67.27.1853.948" timestamp="1581080374191" />
+    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2" timestamp="1581077344423">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948@67.27.1853.948" timestamp="1581077270805" />
+    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2/67.27.1853.948@67.27.1853.948" timestamp="1581077344422" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581077420456">
+      <screen x="67" y="27" width="1853" height="948" />
+    </state>
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948@67.27.1853.948" timestamp="1581077420456" />
   </component>
 </project>
