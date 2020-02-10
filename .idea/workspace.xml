@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5995d971-dc63-4be1-95cb-615c7c875b7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/PrimeraPublicacion.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/PublicacionesConComentarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/PublicacionesConComentarios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UnaPublicacionConComentarios.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comentario.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comentario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Publicacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Publicacion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20200207120717.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20200207121802.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/publicacion/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/publicacion/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581081593657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Usuarios">
+      <created>1581354921017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581354921017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,21 +191,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entidades sin relaciones" />
     <MESSAGE value="Fixtures hechos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixtures hechos" />
+    <MESSAGE value="Usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usuarios" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581080374191">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
     <state x="726" y="258" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.948@67.27.1853.948" timestamp="1581080374191" />
-    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2" timestamp="1581082318092">
+    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2" timestamp="1581354920637">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2/67.27.1853.948@67.27.1853.948" timestamp="1581082318092" />
-    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581082327837">
+    <state x="558" y="98" width="860" height="803" key="CommitChangelistDialog2/67.27.1853.948@67.27.1853.948" timestamp="1581354920637" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581354934379">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
-    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948@67.27.1853.948" timestamp="1581082327837" />
+    <state x="588" y="236" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.948@67.27.1853.948" timestamp="1581354934379" />
     <state x="649" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1581100688430">
       <screen x="67" y="27" width="1853" height="948" />
     </state>
