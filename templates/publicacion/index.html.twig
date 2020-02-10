@@ -20,6 +20,7 @@
     <th>Respuestas</th>
     <th>Categoria</th>
     <th>Fecha</th>
+    <th>Usuario</th>
     </thead>
     <tbody>
     {% for publicacion in listado_publicaciones %}
@@ -31,6 +32,7 @@
         <td>4</td>
         <td>{{ publicacion.getCategoria }}</td>
         <td>{{ publicacion.getFechaPublicacion|date('Y-m-d') }}</td>
+        <td>{{ publicacion.getUser }}</td>
     </tr>
     {% endfor %}
     </tbody>

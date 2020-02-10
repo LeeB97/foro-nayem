@@ -5,6 +5,7 @@ namespace App\DataFixtures;
 use App\Entity\Categoria;
 use App\Entity\Comentario;
 use App\Entity\Publicacion;
+use App\Entity\User;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 
@@ -15,6 +16,13 @@ class PublicacionesConComentarios extends Fixture
         $contenidos = ['Esto es lo maximo','Esto es lo peor','Ame estos momentos','Viva la vida','De mal a peor','Mi vida cambio','Prefiero morir','Hasta junio','Hasta septiembre','Necesito dormir mas','Pizza time','Nunca nunca jamas jamas','Aguacates'];
         $comentarios = ['Lo apoyo','Que va','Correcto','Ni loco','TT_TT',':D'];
         $repoCat = $manager->getRepository(Categoria::class);
+
+        $repoUser = $manager->getRepository(User::class);
+
+        $u = $repoUser->findOneBy([
+            'username' => 'nayem97'
+        ]);
+
         $minCat = min($repoCat->findAll())->getId();
         $maxCat = max($repoCat->findAll())->getId();
 
@@ -23,12 +31,12 @@ class PublicacionesConComentarios extends Fixture
 
             $random = mt_rand($minCat,$maxCat);
             $c = $repoCat->find($random);
-            dump($c);
 
             $p->setCategoria($c);
             $p->setContenido($contenido);
             $p->setTitulo($contenidos[mt_rand(0,count($contenidos)-1)]);
             $p->setFechaPublicacion(new \DateTime("now"));
+            $p->setUser($u);
 
             for ($i = 0 ; $i < mt_rand(0,count($comentarios)-1) ; $i++){
                 $com = new Comentario();
@@ -36,6 +44,7 @@ class PublicacionesConComentarios extends Fixture
                 $com->setFechaPublicacion(new \DateTime('now'));
 
                 $com->setPublicacion($p);
+                $com->setUser($u);
 
                 $manager->persist($com);
             }
